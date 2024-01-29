@@ -8,12 +8,12 @@ namespace basics.Controllers
 {
     public class CourseController : Controller
     {
-        public string Index(){
-            return "course/index";
+        public IActionResult Index(){
+            return View();
         }
 
-        public string List(){
-            return "course/list";
+        public IActionResult List(){
+            return View();
         }
 
         
