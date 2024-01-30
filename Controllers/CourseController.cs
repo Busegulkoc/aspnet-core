@@ -15,7 +15,8 @@ namespace basics.Controllers
             {
                 Id = 1,
                 Title = "Aspnet core kursu",
-                Description = "Güzel bir kurs"
+                Description = "Güzel bir kurs",
+                Image="1.jpg"
             };
 
             return View(kurs);
@@ -24,9 +25,9 @@ namespace basics.Controllers
         public IActionResult List(){
         var kurslar = new List<Course>()
         {
-            new Course(){Id = 1, Title= "aspnet kursu" , Description="güzel bir kurs"},
-            new Course(){Id = 2, Title= "php kursu" , Description="güzel bir kurs"},
-            new Course(){Id = 3, Title= "js kursu" , Description="güzel bir kurs"},
+            new Course(){Id = 1, Title= "aspnet kursu" , Description="güzel bir kurs", Image= "1.jpg"},
+            new Course(){Id = 2, Title= "php kursu" , Description="güzel bir kurs", Image= "2.jpg"},
+            new Course(){Id = 3, Title= "js kursu" , Description="güzel bir kurs",  Image= "3.jpg"},
 
         };
             return View("list", kurslar);
