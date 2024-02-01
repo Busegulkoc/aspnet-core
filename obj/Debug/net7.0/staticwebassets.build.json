@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bfkz5hQK4pK9rnne3OG4/6r5YnGM1LM16IzQTQRDQnU=",
+  "Hash": "vrsj08UjBrtGbr2/x/bm/F4js2yspkrrNAGHWpat3Os=",
   "Source": "basics",
   "BasePath": "_content/basics",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\BUSE GÜL\\Desktop\\aspnetcoreproject\\basics\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\basics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\BUSE GÜL\\Desktop\\aspnetcoreproject\\basics\\wwwroot\\css\\contact.css",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BUSE GÜL\\Desktop\\aspnetcoreproject\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "css/contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
       "Identity": "C:\\Users\\BUSE GÜL\\Desktop\\aspnetcoreproject\\basics\\wwwroot\\css\\site.css",
